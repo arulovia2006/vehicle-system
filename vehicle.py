@@ -1,5 +1,9 @@
-n=(int(input("Enter the values")))
-a,b=0,1
-for i in range(n):
-    print(a)
-    a,b=b,a+b
+def fibonacci(n):
+    a, b = 0, 1
+
+    for i in range(n):
+        print(a)
+        a, b = b, a + b
+
+print("Fibonacci Series:")
+fibonacci(10)
